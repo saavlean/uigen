@@ -1,0 +1,12 @@
+aws_region   = "us-east-1"
+project_name = "my-app"
+vpc_cidr     = "10.0.0.0/16"
+
+instance_type = "t3.micro"
+ami_id        = ""
+key_name      = "my-key-pair"
+
+domain_name          = "example.com"
+subdomain            = "www"
+create_route53_zone  = false
+route53_zone_id      = "Z1234567890ABC"
