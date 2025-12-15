@@ -1,0 +1,13 @@
+name: Claude Assistant
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  claude:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Claude placeholder
+        run: echo "Claude would run here"
